@@ -30,6 +30,9 @@ To get started with this project:
 
 3. Follow the installation instructions provided in the project's documentation to set up the required dependencies and configurations.
 
+
+<img src="https://github.com/Innocentsax/SpringBoot3.0-OAuth2.0-Social_Login/blob/main/Vet%20view.png">
+
 ## Usage
 
 Detailed instructions and code snippets are provided in the project's documentation to guide you through the implementation of modern authentication with Spring Boot 3.0 and OAuth2.0. Additionally, you'll find steps for integrating social login providers such as GitHub, Facebook, and Google.
