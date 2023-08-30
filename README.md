@@ -1,5 +1,7 @@
 # Modern Authentication with Spring Boot 3.0, OAuth2.0, and Social Logins (GitHub, Facebook, Google)
 
+<img src="https://github.com/Innocentsax/SpringBoot3.0-OAuth2.0-Social_Login/blob/main/Github%20View.png">
+
 Welcome to the **Modern Authentication with Spring Boot 3.0, OAuth2.0, and Social Logins** repository! This project focuses on implementing cutting-edge authentication techniques in Spring Boot 3.0, utilizing the power of OAuth2.0. With the integration of social login providers like GitHub, Facebook, and Google, this project aims to enhance both security and user experience.
 
 ## Overview
