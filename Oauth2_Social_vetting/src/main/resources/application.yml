@@ -1,0 +1,24 @@
+        # Github: InnocentUdo-App
+# SHA256:AavArfeyv5b+cLK1Ov+gipwsc11SrHS6f0KzKwqyu2I=
+# Client ID: Iv1.c4dfa8fd3daa4d64
+# Client secret:  ce8cbfd6700cf2d957f79d379740403bbd4d8552
+
+
+        # Google account: InnocentUdo-App
+# Client ID: 81057153875-7gcukeddd9ib46n72nkhoqas3he67rh1.apps.googleusercontent.com
+# Client Secret key: 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
+
+#Spring boot 3.0 + OAuth2.0 + Social Login;
+
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Iv1.c4dfa8fd3daa4d64
+            clientSecret: ce8cbfd6700cf2d957f79d379740403bbd4d8552
+          google:
+            clientId: 81057153875-7gcukeddd9ib46n72nkhoqas3he67rh1.apps.googleusercontent.com
+            clientSecret: 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
