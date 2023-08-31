@@ -12,7 +12,7 @@ Authentication is a critical aspect of any application, and with the evolution o
 
 <img src="https://github.com/Innocentsax/SpringBoot3.0-OAuth2.0-Social_Login/blob/main/Google%20view.png">
 
-- **Social Logins Integration**: Enable users to log in effortlessly using their GitHub, Facebook, or Google accounts. This feature not only enhances user experience but also minimizes friction during the sign-up process.
+- **Social Logins Integration**: Enable users to log in effortlessly using their GitHub, Facebook, or Google accounts. This feature not only enhances user experience but also minimizes friction during the sign-up process..
 
 ## Getting Started
 
