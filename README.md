@@ -14,7 +14,7 @@ Authentication is a critical aspect of any application, and with the evolution o
 
 - **Social Logins Integration**: Enable users to log in effortlessly using their GitHub, Facebook, or Google accounts. This feature not only enhances user experience but also minimizes friction during the sign-up process..
 
-## Getting Started
+## Getting Started.
 
 To get started with this project:
 
