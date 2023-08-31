@@ -1,4 +1,4 @@
-# Modern Authentication with Spring Boot 3.0, OAuth2.0, and Social Logins (GitHub, Facebook, Google).
+# Modern Authentication with Spring Boot 3.0, OAuth2.0, and Social Logins (GitHub, Facebook, Google)
 
 <img src="https://github.com/Innocentsax/SpringBoot3.0-OAuth2.0-Social_Login/blob/main/Github%20View.png">
 
