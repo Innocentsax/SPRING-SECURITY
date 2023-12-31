@@ -13,6 +13,7 @@
         <module name="Oauth2_Social_vetting" />
         <module name="springsecuritybasic" />
         <module name="springsecsection4" />
+        <module name="springsecsection5" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,6 +24,7 @@
       <module name="springsecsection2" options="-parameters" />
       <module name="springsecsection3" options="-parameters" />
       <module name="springsecsection4" options="-parameters" />
+      <module name="springsecsection5" options="-parameters" />
       <module name="springsecuritybasic" options="-parameters" />
     </option>
   </component>
