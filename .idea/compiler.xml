@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,19 +10,19 @@
         <module name="SecuritySquad16" />
         <module name="springsecsection2" />
         <module name="springsecsection3" />
+        <module name="Oauth2_Social_vetting" />
         <module name="springsecuritybasic" />
+        <module name="springsecsection4" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Oauth2_Social_vetting" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Oauth2_Social_vetting" options="-parameters" />
+      <module name="Oauth2_Social_vetting" options="" />
       <module name="SecuritySquad16" options="-parameters" />
       <module name="springsecsection2" options="-parameters" />
       <module name="springsecsection3" options="-parameters" />
+      <module name="springsecsection4" options="-parameters" />
       <module name="springsecuritybasic" options="-parameters" />
     </option>
   </component>
