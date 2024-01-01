@@ -3,7 +3,7 @@ package dev.Innocent.Model;
 import jakarta.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
 
-import java.util.Date;
+import java.sql.Date;
 
 @Entity
 @Table(name="loans")
