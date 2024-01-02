@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.Innocent</groupId>
-	<artifactId>springsecsection6</artifactId>
+	<artifactId>springsecsection7</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springsecsection6</name>
+	<name>springsecsection7</name>
 	<description>Spring Boot and Spring Security</description>
 	<properties>
 		<java.version>21</java.version>
