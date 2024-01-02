@@ -1,8 +1,11 @@
 package dev.Innocent.Model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
+
+import java.util.Set;
 
 @Entity
 public class Customer {
@@ -12,9 +15,7 @@ public class Customer {
     @GenericGenerator(name = "native",strategy = "native")
     @Column(name = "customer_id")
     private int id;
-
     private String name;
-
     private String email;
 
     @Column(name = "mobile_number")
@@ -22,11 +23,13 @@ public class Customer {
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String pwd;
-
     private String role;
-
     @Column(name = "create_dt")
     private String createDt;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "customer", fetch = FetchType.EAGER)
+    private Set<Authority> authorities;
 
     public int getId() {
         return id;
@@ -82,5 +85,13 @@ public class Customer {
 
     public void setCreateDt(String createDt) {
         this.createDt = createDt;
+    }
+
+    public Set<Authority> getAuthorities() {
+        return authorities;
+    }
+
+    public void setAuthorities(Set<Authority> authorities) {
+        this.authorities = authorities;
     }
 }
