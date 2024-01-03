@@ -11,7 +11,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 @ComponentScan("dev.Innocent.controller") // Optional
 @EnableJpaRepositories("dev.Innocent.repository") // Optional
 @EntityScan("dev.Innocent.model") // Optional
-@EnableWebSecurity // Optional
+@EnableWebSecurity(debug = true) // Optional
 public class UdoBankBackendApplication {
 
 	public static void main(String[] args) {
