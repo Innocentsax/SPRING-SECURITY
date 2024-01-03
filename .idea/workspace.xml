@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8017ece3-0741-4193-a119-51789465fa79" name="Changes" comment="Understanding Authentication Provider" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2aJ7P0jaBa1jAp6iWkMRwstAtuz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Innocent Udo/SPRING-SECURITY/springsecsection7",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.UdoBankBackendApplication (1)">
+    <configuration name="UdoBankBackendApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.Innocent.UdoBankBackendApplication" />
+      <module name="springsecsection5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.Innocent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UdoBankBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.Innocent.UdoBankBackendApplication" />
+      <module name="springsecsection4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.Innocent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UdoBankBackendApplication (1)" />
+        <item itemvalue="Application.UdoBankBackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8017ece3-0741-4193-a119-51789465fa79" name="Changes" comment="" />
+      <created>1704024799982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704024799982</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Password Management with Password Encoder">
+      <option name="closed" value="true" />
+      <created>1704027304014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704027304014</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Password Management with Password Encoder (Bycrpt)">
+      <option name="closed" value="true" />
+      <created>1704028834188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704028834188</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Understanding Authentication Provider">
+      <option name="closed" value="true" />
+      <created>1704032773663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704032773663</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Understanding Authentication Provider">
+      <option name="closed" value="true" />
+      <created>1704036642891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704036642891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Password Management with Password Encoder" />
+    <MESSAGE value="Password Management with Password Encoder (Bycrpt)" />
+    <MESSAGE value="Understanding Authentication Provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Understanding Authentication Provider" />
+  </component>
+</project>
