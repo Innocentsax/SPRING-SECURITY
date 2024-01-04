@@ -1,9 +1,6 @@
 package dev.Innocent.Config;
 
-import dev.Innocent.filter.AuthoritiesLoggingAfterFilter;
-import dev.Innocent.filter.AuthoritiesLoggingAtFilter;
-import dev.Innocent.filter.CsrfCookieFilter;
-import dev.Innocent.filter.RequestValidationBeforeFilter;
+import dev.Innocent.filter.*;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -50,6 +47,7 @@ public class ProjectSecurityConfig {
                 .addFilterBefore(new RequestValidationBeforeFilter(), BasicAuthenticationFilter.class)
                 .addFilterAt(new AuthoritiesLoggingAtFilter(), BasicAuthenticationFilter.class)
                 .addFilterAfter(new AuthoritiesLoggingAfterFilter(), BasicAuthenticationFilter.class)
+                .addFilterAfter(new JWTTokenGeneratorFilter(), BasicAuthenticationFilter.class)
                 .authorizeHttpRequests((requests) -> requests
                         .requestMatchers("/myAccount").hasRole("USER")
                         .requestMatchers("/myBalance").hasAnyRole("USER", "ADMIN")
