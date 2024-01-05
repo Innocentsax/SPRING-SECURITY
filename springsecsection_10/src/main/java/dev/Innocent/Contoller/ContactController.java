@@ -3,7 +3,7 @@ package dev.Innocent.Contoller;
 import dev.Innocent.Model.Contact;
 import dev.Innocent.Repository.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.prepost.PreFilter;
+import org.springframework.security.access.prepost.PostFilter;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,7 +27,8 @@ public class ContactController {
 //    }
 
     @PostMapping("/contact")
-    @PreFilter("filterObject.contactName != 'Test'")
+    //@PreFilter("filterObject.contactName != 'Test'")
+    @PostFilter("filterObject.contactName != 'Test'")
     public List<Contact> saveContactInquiryDetails(@RequestBody List<Contact> contacts){
         Contact contact = contacts.get(0);
         contact.setContactId(getServiceReqNumber());
